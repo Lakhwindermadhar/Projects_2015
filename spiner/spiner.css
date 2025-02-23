@@ -1,0 +1,14 @@
+.spiner{
+width: 200px;
+height: 200px;
+background-color:blue;
+border-radius: 50%;
+border: 25px solid white;
+border-top: 20px solid wheat;
+animation: sun 1.6s linear infinite;
+}
+@keyframes sun{
+    to{
+        transform: rotate(360deg);
+    }
+}
